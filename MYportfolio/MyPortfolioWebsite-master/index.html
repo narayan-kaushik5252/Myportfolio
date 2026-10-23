@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Shivam Sharma - DevOps & Cloud Enthusiast | Portfolio, a DevOps Engineer passionate about CI/CD, cloud, and automation. Explore my projects and skills!">
+    <!-- unicons link  -->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+    <link rel="shortcut icon" href="assets/S favicon.ico" type="image/x-icon">
+    <title>Narayan - DevOps Engineer
+    </title>
+    <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Narayan kumar",
+          "url": "https://narayan8168.netlify.app/",
+          "sameAs": [
+            "https://www.linkedin.com/in/narayankaushik5252/",
+            "https://github.com/narayan-kaushik5252"
+          ],
+          
+          "alumniOf": {
+            "@type": "EducationalOrganization",
+            "name": "GALGOTIA COLLEGE OF ENGINEERING AND TECHNOLOGY"
+          },
+          "knowsAbout": ["Java", "DevOps", "Git" , "SQL" ,"Kubernetes" , "Docker" , "Linux" , "Jenkins" ]
+          
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div class="container" id="main-container">
+        <!-- header section  -->
+        <nav id="header">
+            <div class="nav-logo">
+                <p class="nav-name"> <a href="#" onclick="location.reload(); return false;">Narayan</a> </p>
+                <span>.</span>
+            </div>
+            <div class="nav-menu" id="myNavMenu">
+                <ul class="nav_menu_list">
+                    <li class="nav_list" id="homebtn" style="animation-delay: 0.4s;">
+                        <a href="#home" class="nav-link active-link">Home</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list" id="aboutbtn" style="animation-delay: 0.8s;">
+                        <a href="#about" class="nav-link">About</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list" id="edbtn" style="animation-delay: 1.2s;">
+                        <a href="#experiencePage" class="nav-link">Experience</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list" id="projectbtn" style="animation-delay: 1.4s;">
+                        <a href="#projects" class="nav-link">Projects</a>
+                        <div class="circle"></div>
+                    </li>
+                    <li class="nav_list" id="projectbtn" style="animation-delay: 1.4s;">
+                        <a href="#" class="nav-link dropbtn" id="moreLink">More</a>
+                        <select id="moreOptions" size="2" style="display: none;" onchange="navigateTo(this.value)">
+                            <option value="#education">Education</option>
+                            <option value="certifications/index2.html">My Certificates</option>
+                        </select>
+                    </li>
+
+                    <li class="nav_list" id="contactbtn" style="animation-delay: 1.6s;">
+                        <a href="#contact" class="nav-link">Contact</a>
+                        <div class="circle"></div>
+                    </li>
+                    <!-- new more button  -->
+
+                </ul>
+            </div>
+            <div class="nav-button">
+                <a href="assets/NarayanKumar_Resume.pdf" download="NarayanKumar_Resume.pdf" class="btn">
+                    Resume<i class="uil uil-import"></i></a>
+
+            </div>
+            <div class="nav-menu-btn">
+                <i class="uil uil-bars" onclick="myMenuFunction()"></i>
+            </div>
+        </nav>
+
+        <!-- main content  -->
+        <main class="wrapper">
+            <section class="featured-box" id="home">
+                <div class="featured-text">
+                    <div class="featured-text-card">
+                        <span1>Hi , I am</span1> <br>
+                        <span>Narayan Kumar.</span>
+                    </div>
+                    <div class="featured-name">
+                        <p>I'm <span class="typedText"></span></p>
+                    </div>
+                    <div class="featured-text-info">
+                        <p>A DevOps Engineer(currently at JarNox) with a strong passion for automation, cloud infrastructure, and creating
+                            seamless deployment pipelines, aiming to enhance efficiency, scalability, and reliability
+                            throughout the development lifecycle.
+                        </p>
+                    </div>
+                    <div class="featured-text-btn">
+                        <button class="btn blue-btn"><a href="#contact">Hire Me</a></button>
+                        <a href="assets/NarayanKumar_Resume.pdf" download="NarayanKumar_Resume.pdf" class="btn">
+                            Resume<i class="uil uil-import"></i></a>
+
+                    </div>
+                    <div class="social_icons">
+                        <div class="icon"><a href="https://www.linkedin.com/in/narayankaushik5252/" target="_blank">
+                                <i class="uil uil-linkedin-alt">
+                                </i>
+                            </a>
+                        </div>
+                        <div class="icon"> <a href="https://github.com/narayan-kaushik5252" target="_blank"><i
+                                    class="uil uil-github-alt">
+                                </i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="mailto:Narayan.narayankaushik5252@gmail.com" target="_blank">
+                                <i class="uil uil-envelope-upload"></i>
+                            </a>
+                        </div>
+                        <div class="icon">
+                            <a href="https://wa.me/7310703828" target="_blank">
+                                <i class="uil uil-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="featured-image">
+                    <div class="image">
+                        <!-- <img src="assets/developerimage.png"
+                            alt="Profile picture of Narayan Kumar, a DevOps Engineer and java developer."> -->
+                        <video autoplay loop muted playsinline>
+                            <source src="assets/DevOps Engineer.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="scroll-icon-box">
+                    <a href="#about" class="scroll-btn">
+                        <i class="uil uil-mouse-alt"></i>
+                        <p>Scroll Down</p>
+                    </a>
+                </div>
+
+            </section>
+            <!-- about box  -->
+            <section class="section" id="about">
+                <div class="top-header">
+                    <h1>About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="about-info">
+                            <h3>My introduction</h3>
+                            <p>
+                                Hey there! I'm Narayan Kumar, an aspiring DevOps engineer with a Bachelor's in Computer
+                                Science from GCET Greater Noida. Currently diving deep into
+                                CI/CD, cloud computing, containerization, and infrastructure as code, I’m passionate
+                                about automating workflows and optimizing system performance. My journey includes
+                                hands-on experience with tools like Docker, Kubernetes, Git, and Jenkins, backed by
+                                continuous learning through platforms like Internshala and Simplilearn. When I'm not
+                                exploring DevOps practices, I stay updated with the latest tech trends. Welcome to my
+                                portfolio—let’s build and scale something amazing together!
+
+                            </p>
+                            <div class="about-btn">
+                                <a href="assets/NarayanKumar_Resume.pdf" download="NarayanKumar_Resume.pdf" class="btn">
+
+                                    Resume <i class="uil uil-import"></i> </a>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3>Skills</h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Linux <br> (Basics)</span>
+                                <span>Git</span>
+
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3></h3>
+                            </div>
+                            <div class="skills-list">
+
+                                <span>Docker</span>
+
+
+                                <span>Jenkins</span>
+
+                                <span>Kubernetes <br>(Beginner)</span>
+                            </div>
+                        </div>
+                        <div class="skills-box">
+                            <div class="skills-header">
+                                <h3></h3>
+                            </div>
+                            <div class="skills-list">
+                                <span>Jira</span>
+                                <span>AWS</span>
+                                <span>SQL</span>
+
+                                <!-- <span>MongoDB (Beginner)</span> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- education box here  -->
+            <section class="section" id="education">
+                <div class="top-header">
+                    <h1>My Education</h1>
+                </div>
+
+                <div class="project-container">
+                    <div class="education-box">
+                        <i class="uil uil-book-open"></i>
+                        <h3>Bachelor of Technology</h3>
+
+                        <p>Cumulating my Bachelor's in Computer Science and Engineering from GCET Engineering Management
+                            Technical Campus Greater Noida, affiliated with GGSIP University. Endowed with
+                            a robust understanding of engineering fundamentals, I'm poised to apply my knowledge in
+                            real-world scenarios, fostering innovation and driving impactful solutions in the field.
+                        </p>
+                    </div>
+                    <div class="education-box">
+                        <i class="uil uil-book-open"></i>
+                        <h3>Internshala</h3>
+
+                        <p>
+                            I completed a comprehensive web development course on Internshala where i learnt HTML, CSS,
+                            JavaScript, Bootstrap, React and MySQL. The course covered designing responsive
+                            layouts and building modern interfaces. This training equipped me with a solid foundation in
+                            frontend development and basic knowledge of Backend, enabling me to build scalable web
+                            applications.
+                        </p>
+                    </div>
+                    <div class="education-box">
+                        <i class="uil uil-book-open"></i>
+                        <h3>Simplilearn</h3>
+
+                        <p>
+                            I completed a course on SEO basics from Simplilearn, where I gained foundational knowledge
+                            in search engine optimization. The course covered keyword research, on-page and off-page
+                            optimization,and a basic knowledge of Google Keyword Planner to enhance search engine
+                            rankings, equipping me with essential SEO techniques for effective digital marketing.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="experiencePage">
+                <div class="top-header">
+                    <h1>Work Experience</h1>
+                </div>
+                <div class="time-line">
+                    <!-- <div class="containerExp left-containerExp" style="animation-delay: 0s;">
+                        <img src="assets/prodigyicon.png"
+                            alt="Portfolio of Shivam Sharma - innovative frontend web developer experienced in frontend and responsive design">
+                        <div class="text-box">
+                            <h2>Prodigy Infotech</h2>
+                            <small>Jul-Aug(2024)</small>
+                            <p>During this internship, I built a weather web application that fetches the data using API
+                                , a game and I learnt a lot from these tasks. This
+                                helps me enhancing my skills and providing experience and facing real world scenarios.
+                            </p>
+                            <span class="leftContainer-arrow"></span>
+                        </div>
+                    </div> -->
+                    <div class="containerExp right-containerExp" style="animation-delay: 1s;">
+                        <img src="assets/ITStudio-Icon.png"
+                            alt="Portfolio of Narayan Kumar - Room boking system developed by Narayan Kumar using C++ and implementing DSA.">
+                        <div class="text-box">
+                            <h2>Internship Studio</h2>
+                            <small>Jul-Aug(2024)</small>
+                            <p>Built a robust room booking management system using C++ to streamline booking processes.
+                                Implemented efficient data structures to
+                                optimize search and booking functionalities. Learnt new concepts and enhanced my
+                                knowledge and experience.</p>
+                            <span class="rightContainer-arrow"></span>
+                        </div>
+                    </div>
+                    <div class="containerExp left-containerExp" style="animation-delay: 2s;">
+                        <img src="assets/skillquestlogo.png" alt="logo">
+                        <div class="text-box">
+                            <h2>Skillquestlearnings</h2>
+                            <small>May 15,2025 - Present | Remote</small>
+                            <p>
+                                ⤷ Architected and managed VPN setup (WireGuard) for secure cross-team access <br>
+                                ⤷ Developed automation scripts in Bash & Python, reducing admin efforts by ~40%. <br>
+                                ⤷ Built CI/CD pipelines to automate the deployment process, ensuring reliable and repeatable
+                                configurations.
+                            </p>
+                            <span class="leftContainer-arrow"></span>
+                        </div>
+                    </div>
+                    <!-- <div class="containerExp right-containerExp" style="animation-delay: 3s;">
+                        <img src="assets/google-image.png" alt="logo">
+                        <div class="text-box">
+                            <h2>Microsoft Inc.</h2>
+                            <small>2018-2019</small>
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Autem quam, sequi perspiciatis
+                                maxime quasi praesentium.</p>
+                            <span class="rightContainer-arrow"></span>
+                        </div>
+                    </div> -->
+                </div>
+            </section>
+
+
+            <!-- project box  -->
+            <section class="section" id="projects">
+                <div class="top-header">
+                    <h1>Projects</h1>
+                </div>
+                <div class="project-section1">
+
+                    <div class="project-box1">
+                        <a href="projectpage/index3.html" target="_blank" title="click to open">
+                            <video autoplay loop muted playsinline>
+                                <source src="assets/cicd_pipeline_video.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
+
+                        </a>
+
+
+                    </div>
+                    <span>CI/CD pipeline </span>
+                    <br>
+                    <p>
+                        <span id="h_line">"DevOps CI/CD Pipeline Project – From Code to Deployment"</span> <br>
+                        ⤷ This project showcases my hands-on experience following modern DevOps practices.
+                        <br>
+                        ⤷ Tools like Git, jenkins and Docker were used to ensure smooth,
+                        automated delivery. <br>
+                        ⤷ This end-to-end implementation demonstrates how I streamline development,
+                        improve collaboration, and maintain release consistency. <br>
+                        ⤷ Your feedback and suggestions are truly valued and welcomed! <br>
+                        ⤷ Click on animation to read full project.
+                    </p>
+
+                </div>
+            </section>
+            <!-- contact Box  -->
+            <section class="section" id="contact">
+                <div class="top-header">
+                    <h1>Get in touch</h1>
+                    <span>Have DevOps project in your mind! , Let's discuss.</span>
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <div class="contact-info">
+                            <h2>Find Me <i class="uil uil-corner-right-down"></i></h2>
+                            <p> <a href="mailto:Sharma.shiv8535@gmail.com">
+                                    <i class="uil uil-envelope"></i> Narayan.narayanpandit5252@gmail.com</a> </p>
+
+                            <p><i class="uil uil-phone"></i><a href="tel:+7310703828">
+                                    +917310703828</a></p>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <form class="form-control" action="https://api.web3forms.com/submit" method="POST">
+                            <!-- newly added  -->
+                            <input type="hidden" name="access_key" value="fd364b54-07c9-4cef-8593-2175dd79c8ad">
+                            <div class="form-inputs">
+                                <input type="text" name="name" class="input-field" placeholder="Name" required>
+                                <input type="email" name="email" id="clientEmail" class="input-field"
+                                    placeholder="Email" required>
+                            </div>
+                            <div class="text-area">
+                                <textarea name="messagedrop" placeholder="Write your message here..."></textarea>
+                            </div>
+                            <div class="form-button">
+                                <button type="submit" class="btn">Send <i class="uil uil-message"></i></button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </section>
+
+        </main>
+        <!-- footer  -->
+        <footer>
+            <div class="top-footer">
+                <p>Narayan Kumar.</p>
+            </div>
+            <div class="middle-footer">
+                <ul class="footer-menu">
+                    <li class="footer_menu_list">
+                        <a href="#home">Home</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#about">About</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#education">Education</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#projects">Projects</a>
+                    </li>
+                    <li class="footer_menu_list">
+                        <a href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-social-icons">
+                <div class="icon">
+                    <a href="mailto:Narayan.narayanpandit5252@gmail.com" target="_blank">
+                        <i class="uil uil-envelope-upload"></i>
+                    </a>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://www.linkedin.com/in/narayanpandit5252/" target="_blank">
+                        <i class="uil uil-linkedin-alt">
+                        </i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://wa.me/7310703828" target="_blank">
+
+                        <i class="uil uil-whatsapp"></i>
+                    </a>
+                </div>
+                <div class="icon">
+                    <a href="https://github.com/narayan-kaushik5252" target="_blank"><i class="uil uil-github-alt"></i></a>
+                </div>
+            </div>
+            <div class="bottom-footer">
+
+                <div>
+                    <p>Copyright &copy; <a href="#home" style="text-decoration: none;">Narayan Kumar</a> - All rights
+                        reserved</p>
+                </div>
+                <div class="countbox">
+                    <p>
+                        <script type="text/javascript" src="https://counter.websiteout.com/js/36/3/0/1"></script>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- typed js cdn link  -->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- scroll reveal link  -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- js file link  -->
+    <script src="script.js"></script>
+</body>
+
+</html>
